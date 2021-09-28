@@ -13,13 +13,26 @@
       top: 50%;
       left: 50%;
       transform: translate(-50%, -50%);
+    }
 
+    @font-face {
+      font-family: agencyr;
+      src: url("assets/agencyr.ttf");
+      font-weight: 400;
+      font-weight: normal;
+    }
+
+    .fontLoader {
+      position: absolute;
+      left: -1000px;
+      visibility: hidden;
     }
   </style>
   
-  <script type="module" crossorigin src="https://cdn.jsdelivr.net/gh/chimple/crazy-dots-host/assets/index.27da8ce6.js"></script>
+  <script type="module" crossorigin src="https://cdn.jsdelivr.net/gh/chimple/crazy-dots-host/assets/index.71056688.js"></script>
     <link rel="modulepreload" href="https://cdn.jsdelivr.net/gh/chimple/crazy-dots-host/assets/vendor.c2cc9365.js">
   </head>
+<div class="fontLoader" style="font-family: 'agencyr'" ;>-</div>
 
 <body>
   <div id="game"></div>
